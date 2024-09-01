@@ -1,196 +1,548 @@
 /* Reset default margins and paddings */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Define CSS variables */
 :root {
-    --main-primary-color: #B9FF66;
-    --main-secondary-color: #191a23;
-    --white: #F3F3F3;
+  --main-primary-color: #b9ff66;
+  --main-secondary-color: #191a23;
+  --white: #f3f3f3;
 }
-.navbar-brand{
-    margin-left: 50px !important;
-    font-weight: 900;
-    padding-top: -10px;
+.navbar-brand {
+  margin-left: 50px !important;
+  font-weight: 900;
+  padding-top: -10px;
 }
 /* Style the container-fluid class */
 .container-fluid {
-    margin-top: 40px !important;
-   
+  margin-top: 40px !important;
 }
 
 /* Align navbar items to the right */
 .navbar-nav {
-    margin-top: -20px !important;
-    margin-left: 1000px !important ; /* Align items to the right */
-    gap: 20px !important;
-    font-weight: 600 !important;
+  margin-top: -20px !important;
+  margin-left: 1000px !important ; /* Align items to the right */
+  gap: 20px !important;
+  font-weight: 600 !important;
 }
-.navbar{
-    margin-bottom: 40px !important;
+.navbar {
+  margin-bottom: 40px !important;
 }
 
 .button {
-    background-color: var(--white) !important;
-    color: #242424;
-    border-color: var(--main-secondary-color)!important;
-    padding: 10px 20px;
-    border-radius: 20px;
-  border-width:1px;
+  background-color: var(--white) !important;
+  color: #242424;
+  border-color: var(--main-secondary-color) !important;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border-width: 1px;
   font-weight: 600 !important;
 }
-.s1{
-    flex-wrap: wrap;
-    position: relative;
-width: 100%;
-display: flex;
-justify-content: flex-start;
-height: 800px;
+.s1 {
+  flex-wrap: wrap;
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  height: 800px;
 }
-.heading{
-    margin-left:  10% !important;
-    position: absolute;
-   padding-bottom: 0%;
-    width: 315px;
-    height: 300px;
-    margin-top: 20px;
+.heading {
+  margin-left: 10% !important;
+  position: absolute;
+  padding-bottom: 0%;
+  width: 315px;
+  height: 300px;
+  margin-top: 20px;
 }
-.paragraph{
-    margin-left:  10% !important;
-    position: absolute;
-   margin-top: 200px;
-    width: 300px;
-    height: 200px;  
+.paragraph {
+  margin-left: 10% !important;
+  position: absolute;
+  margin-top: 200px;
+  width: 300px;
+  height: 200px;
 }
-.button2{
-    position: absolute;
-    background-color: var(--main-secondary-color) !important;
-    color:var(--white);
-    border-color: var(--main-secondary-color)!important;
-    padding: 10px 20px;
-    
-  border-width:1px;
+.button2 {
+  position: absolute;
+  background-color: var(--main-secondary-color) !important;
+  color: var(--white);
+  border-color: var(--main-secondary-color) !important;
+  padding: 10px 20px;
+
+  border-width: 1px;
   font-weight: 600 !important;
   margin-top: 400px;
   margin-left: 200px;
-
 }
-.imagesection{
-    position:absolute;
-    height: 600px;
-    margin-left: 900px;
+.img1 {
+  flex-wrap: wrap;
 }
-.s2{
-    display:flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.imagesection {
+  position: absolute;
+  width: 700px;
+  height: 600px;
+  margin-left: 900px;
 }
-.img2{
-    width: 100px;
-    height: 70px;
+.s2 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
-.s3{
-    position: relative;
-    width: 100%;
-    height: 150px;
+.img2 {
+  width: 100px;
+  height: 70px;
 }
-.btn3{
-    position: absolute;
-    margin-top: 40px;
-    margin-left: 200px;
-    background-color: #B9FF66;
-    border-color: #B9FF66;
-    padding: 5px 10px;
-    font-weight: 500;
-
+.s3 {
+  position: relative;
+  width: 100%;
+  height: 150px;
 }
-.p1{
-    position: absolute;
-    margin-left: 300px;
-    margin-top: 40px;
-    font-weight: 400;
-    font-size: smaller;
+.btn3 {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 200px;
+  background-color: #b9ff66;
+  border-color: #b9ff66;
+  padding: 5px 10px;
+  font-weight: 500;
 }
-.p2{
-    position: absolute;
-    margin-left: 300px;
-    margin-top: 50px;
-    font-weight: 400;
-    font-size: smaller;
+.p1 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 40px;
+  font-weight: 400;
+  font-size: smaller;
 }
-.c1{
-    background-color: var(--white);
-    padding: 20px;
+.p2 {
+  position: absolute;
+  margin-left: 300px;
+  margin-top: 50px;
+  font-weight: 400;
+  font-size: smaller;
+}
+.c1 {
+  background-color: var(--white);
+  padding: 20px;
   border-radius: 20px;
-    margin-left: 15px;
+  margin-left: 15px;
 }
-.c2{
-    border-radius: 20px; 
-    padding: 20px;
-    margin-left: 15px;
-    background-color: var(--main-primary-color);
+.c2 {
+  border-radius: 20px;
+  padding: 20px;
+  margin-left: 15px;
+  background-color: var(--main-primary-color);
 }
 .h1 {
-    font-size:900;
-    color: #191a23;
+  font-size: 900;
+  color: #191a23;
 }
-.h2{
-    color:var(--white)
+.h2 {
+  color: var(--white);
 }
-.btn4{
-    font-weight: 600;
-    color: #191a23 !important;
-text-decoration: none;
-    margin-top: 500px !important;
+.btn4 {
+  font-weight: 600;
+  color: #191a23 !important;
+  text-decoration: none;
+  margin-top: 500px !important;
 }
 .col-sm-6 {
-    padding-left: 15px; /* Space on the left side of each column */
-    padding-right: 15px; /* Space on the right side of each column */
+  padding-left: 15px; /* Space on the left side of each column */
+  padding-right: 15px; /* Space on the right side of each column */
 }
 
 /* Optionally, you can also add margin-left to the cards to ensure they don’t touch each other */
-.c1, .c2 {
-    margin-left: 15px; /* Space between cards in the same row */
+.c1,
+.c2 {
+  margin-left: 15px; /* Space between cards in the same row */
 }
 
 /* Ensure the last card in each row does not extend beyond the boundary */
 .col-sm-6:last-child {
-    padding-right: 0;
+  padding-right: 0;
 }
 .cards {
-margin-left: 200px !important;
+  margin-left: 200px !important;
 }
-.p21{
-    margin-left: 400px !important;
+.p21 {
+  margin-left: 400px !important;
 }
-.s4{
-    position: relative;
+.s4 {
+  position: relative;
+  width: 100%;
+}
+.plaincards {
+  position: absolute;
+  margin-top: 120px;
+
+  border-radius: 50px !important;
+}
+.plaincards {
+  width: 100% !important;
+}
+.container {
+  width: 100% !important;
+  margin-top: 20px !important;
+}
+.ch1 {
+  margin-top: 1100px;
+  margin-left: 300px;
+}
+.form {
+  background-color: rgb(61, 61, 61);
+
+  margin-left: 300px;
+  width: 80%;
+  height: 600px;
+}
+.cardscontainer {
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  height: 310px;
+  gap: 40px;
+  cursor: pointer;
+}
+.card1-1 {
+  margin-top: 30px;
+  border: #191a23;
+  position: relative;
+  padding: 0px, 120px, 0px, 120px;
+  height: 310px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+  border: 1px solid #191a23;
+}
+.plaincard2 {
+  background-color: var(--main-primary-color);
+}
+.pic1 {
+  z-index: 1;
+  margin-top: 50px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.custom-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  background-color: #d1f2a5; /* Light green color */
+  border: 1px solid #000; /* Black border */
+  color: #000; /* Black text */
+  padding: 10px;
+  border-radius: 20px;
+}
+.custom-card-body {
+  border-top: 1px solid #000;
+}
+.icon {
+  margin-right: 10px; /* Space between icon and text */
+}
+.header-image {
+  width: 90px; /* Adjust image width */
+  height: auto;
+}
+.s5 {
+  position: relative;
+  margin-top: 100px;
+}
+.s6 {
+  margin-top: 20px;
+}
+.s7 {
+  margin-top: 30px;
+  height: 770px;
+}
+.footer {
+  background-color: #141414; /* Dark background color */
+  color: #fff; /* White text color */
+  padding: 40px 0; /* Top and bottom padding */
+  margin-top: 30px !important;
+}
+.foter-nav {
+  gap: 20px !important;
+}
+.navnav1 {
+  margin-left: 150px !important;
+}
+.socialimg {
+  margin-left: 150px !important;
+}
+.footer .contact-us {
+  background-color: #8fed57; /* Light green background for "Contact us" */
+  color: #000; /* Black text for "Contact us" */
+  padding: 5px 10px; /* Padding for "Contact us" */
+  border-radius: 5px; /* Rounded corners */
+  display: inline-block; /* Keep it inline */
+  margin-bottom: 10px; /* Margin bottom */
+  margin-top: 20px;
+}
+.footer a {
+  color: #fff; /* White color for links */
+  text-decoration: none; /* No underline for links */
+  margin: 0 10px; /* Space between links */
+}
+.footer a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+.footer .social-icons i {
+  font-size: 1.5rem; /* Size of social media icons */
+  margin: 0 10px; /* Spacing between icons */
+}
+.footer .subscribe-input {
+  background-color: #333; /* Darker input background */
+  border: 1px solid #444; /* Border for input */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px; /* Padding inside input */
+  width: 70%; /* Input width */
+  color: #fff; /* Text color */
+}
+.footer .subscribe-btn {
+  background-color: #8fed57; /* Light green button */
+  color: #000; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button */
+  margin-left: -5px; /* Overlap with input */
+}
+.footer .footer-logo img {
+  max-width: 100px; /* Adjust logo size */
+  margin-bottom: 20px; /* Margin below the logo */
+}
+.footer .footer-links a {
+  display: block; /* Make links block-level */
+  margin-bottom: 5px; /* Spacing between links */
+}
+.subform {
+  margin-left: 300px !important;
+  background-color: #242424;
+}
+.contact-form-container {
+  background-color: aliceblue; /* White background */
+  border-radius: 20px; /* Rounded corners */
+  padding: 30px; /* Padding around form */
+  max-width: 800px; /* Maximum width for the form container */
+  margin: 50px auto; /* Center form horizontally */
+  margin-bottom: 10px !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex; /* Flexbox layout for form and image */
+  align-items: center; /* Center vertically */
+}
+.form-left {
+  flex: 1; /* Take up half the width */
+}
+.form-right {
+  flex: 1; /* Take up half the width */
+  text-align: center; /* Center the image */
+  margin-left: 90px;
+}
+.form-right img {
+  max-width: 100%; /* Responsive image */
+  height: auto; /* Maintain aspect ratio */
+}
+.form-check-input:checked {
+  background-color: #8fed57; /* Green color for checked radio */
+  border-color: #8fed57; /* Green border for checked radio */
+}
+.form-control {
+  border: 1px solid #000; /* Black border */
+  border-radius: 10px; /* Rounded corners for input fields */
+}
+.btn-custom {
+  background-color: #141414; /* Dark button background */
+  color: #fff; /* White text */
+  border-radius: 10px; /* Rounded button */
+  border: none; /* Remove default border */
+  padding: 10px 20px; /* Padding for button */
+  width: 100%; /* Full width button */
+}
+.btn-custom:hover {
+  background-color: #000; /* Darker background on hover */
+}
+.form-check-label {
+  margin-right: 15px; /* Spacing between radio buttons */
+}
+
+@media (max-width: 430px) {
+    .container-fluid {
+        margin-left: -25px !important;
+    }
+    .imagesection{
+        margin-left: 0px !important;
+        width: 300px !important;
+    }
+    .img1{
+        margin-top: 80px;
+        margin-left:10%;
+        width: 300px !important;
+    }
+    .paragraph{
+        margin-top: 350px !important;
+    }
+    .navbar-nav {
+       
+        margin-left:0px;
+      
+        font-weight: 600 !important;
+      }
+      .navbar-brand {
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+
+  .navbar-nav {
+    margin-left: 0; /* Remove large margin to align items */
+    margin-top: 10px; /* Adjust margin for better spacing */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .navbar-collapse {
+    justify-content: center; /* Center the collapsible content */
+  }
+
+  .button {
+    width: 100%; /* Full width button on smaller screens */
+    margin-top: 10px; /* Add some spacing above the button */
+  }
+  .s1{
+    height: 633px;
+  }
+  .button2{
     width: 100%;
-}
-.plaincards{
-    position: absolute;
+    margin-top: 560px;
+    margin-left: -10px !important;
+  }
+  .btn3{
+    margin-left: 40% !important;
+  }
+  .p1{
+    margin-top: 80px;
+    margin-left: 10px;
+  }
+  .p2{
+    margin-top: 140px;
+    margin-left: 10px !important;
+  }
+  .cardscontainer{
+    display: block;
+  }
+  .card1-1{
     margin-top: 120px;
- 
-   border-radius: 50px !important;
-}
-.plaincards{
-    width: 100% !important;
-}
-.container{
-    width: 100% !important;
-    margin-top: 20px !important;
-}
-.ch1{
-    margin-top: 1100px;
-    margin-left: 300px;
-}
-.form{
-    background-color:rgb(61, 61, 61);
-   
-    margin-left: 300px;
-    width: 80%;
-    height: 600px;
+    margin-left: -30px !important;
+    width: 100%;
+    height: 220px;
+  }
+  .pic1{
+    width: 100px;
+    margin-right: 20px;
+  }
+  .s5{
+    margin-top: 300px !important;
+  }
+  .navbar-brand {
+    margin-left: 50px;
+    font-weight: 900;
+  }
+  
+  .container-fluid {
+    margin-top: 40px;
+  }
+  
+  .navbar-nav {
+    margin-top: -20px;
+    margin-left: auto; /* Automatically aligns items to the right */
+    gap: 20px;
+    font-weight: 600;
+  }
+  
+  .navbar {
+    margin-bottom: 40px;
+  }
+  
+
+    .navbar-brand {
+      margin-left: 0; /* Reset margin for smaller screens */
+    }
+  
+    .navbar-nav {
+      margin-left: 0; /* Remove large margin to align items */
+      margin-top: 10px; /* Adjust margin for better spacing */
+      display: flex;
+      flex-direction: column; /* Stack items vertically */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    .navbar-collapse {
+      justify-content: center; /* Center the collapsible content */
+    }
+  
+    .button {
+      width: 100%; /* Full width button on smaller screens */
+      margin-top: 10px; /* Add some spacing above the button */
+    }
+  
+    /* Adjustments for Form Layout */
+    .contact-form-container {
+      flex-direction: column; /* Stack form and image vertically */
+      max-width: 100%; /* Full width for smaller screens */
+      padding: 20px; /* Adjust padding */
+    }
+    
+    .form-left,
+    .form-right {
+      width: 100%; /* Full width for both form and image */
+      text-align: center; /* Center content */
+      padding: 0; /* Remove padding */
+      margin-bottom: 20px; /* Add margin for spacing between form sections */
+    }
+    
+    .form-right img {
+      max-width: 80%; /* Adjust image size for smaller screens */
+      margin: 0 auto; /* Center image */
+    }
+    .footer {
+        text-align: center; /* Center text for smaller screens */
+    }
+    .footer .foter-nav,
+    .footer .col-md-4 {
+        text-align: center; /* Center align text */
+        margin-bottom: 20px; /* Space below each section */
+    }
+    .foter-nav{
+        text-align: center !important;
+    }
+    .footer .subform {
+        width: 100%; /* Full width for form on smaller screens */
+        padding: 0; /* Remove padding */
+        margin-top: 20px; /* Margin above the form */
+    }
+    .footer form {
+        flex-direction: column; /* Stack form elements vertically */
+        align-items: center; /* Center align form elements */
+    }
+    .footer .subscribe-input,
+    .footer .subscribe-btn {
+        width: 90%; /* Full width for form elements */
+        margin: 10px 0; /* Margin around form elements */
+    }
+    .social-icons {
+        margin-bottom: 20px; /* Margin below social icons */
+    }
+    .navnav1{
+        margin-left: 206px !important;
+    }
+    .footer-nav a{
+        margin-left: 10px !important;
+    }
+    .socialimg{
+        margin-left: 102px !important;
+    }
+    .whitelogo{
+        margin-right: 40px !important;
+    }
+    
 }
