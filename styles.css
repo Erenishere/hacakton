@@ -1,0 +1,196 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define CSS variables */
+:root {
+    --main-primary-color: #B9FF66;
+    --main-secondary-color: #191a23;
+    --white: #F3F3F3;
+}
+.navbar-brand{
+    margin-left: 50px !important;
+    font-weight: 900;
+    padding-top: -10px;
+}
+/* Style the container-fluid class */
+.container-fluid {
+    margin-top: 40px !important;
+   
+}
+
+/* Align navbar items to the right */
+.navbar-nav {
+    margin-top: -20px !important;
+    margin-left: 1000px !important ; /* Align items to the right */
+    gap: 20px !important;
+    font-weight: 600 !important;
+}
+.navbar{
+    margin-bottom: 40px !important;
+}
+
+.button {
+    background-color: var(--white) !important;
+    color: #242424;
+    border-color: var(--main-secondary-color)!important;
+    padding: 10px 20px;
+    border-radius: 20px;
+  border-width:1px;
+  font-weight: 600 !important;
+}
+.s1{
+    flex-wrap: wrap;
+    position: relative;
+width: 100%;
+display: flex;
+justify-content: flex-start;
+height: 800px;
+}
+.heading{
+    margin-left:  10% !important;
+    position: absolute;
+   padding-bottom: 0%;
+    width: 315px;
+    height: 300px;
+    margin-top: 20px;
+}
+.paragraph{
+    margin-left:  10% !important;
+    position: absolute;
+   margin-top: 200px;
+    width: 300px;
+    height: 200px;  
+}
+.button2{
+    position: absolute;
+    background-color: var(--main-secondary-color) !important;
+    color:var(--white);
+    border-color: var(--main-secondary-color)!important;
+    padding: 10px 20px;
+    
+  border-width:1px;
+  font-weight: 600 !important;
+  margin-top: 400px;
+  margin-left: 200px;
+
+}
+.imagesection{
+    position:absolute;
+    height: 600px;
+    margin-left: 900px;
+}
+.s2{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.img2{
+    width: 100px;
+    height: 70px;
+}
+.s3{
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+.btn3{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 200px;
+    background-color: #B9FF66;
+    border-color: #B9FF66;
+    padding: 5px 10px;
+    font-weight: 500;
+
+}
+.p1{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 40px;
+    font-weight: 400;
+    font-size: smaller;
+}
+.p2{
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: smaller;
+}
+.c1{
+    background-color: var(--white);
+    padding: 20px;
+  border-radius: 20px;
+    margin-left: 15px;
+}
+.c2{
+    border-radius: 20px; 
+    padding: 20px;
+    margin-left: 15px;
+    background-color: var(--main-primary-color);
+}
+.h1 {
+    font-size:900;
+    color: #191a23;
+}
+.h2{
+    color:var(--white)
+}
+.btn4{
+    font-weight: 600;
+    color: #191a23 !important;
+text-decoration: none;
+    margin-top: 500px !important;
+}
+.col-sm-6 {
+    padding-left: 15px; /* Space on the left side of each column */
+    padding-right: 15px; /* Space on the right side of each column */
+}
+
+/* Optionally, you can also add margin-left to the cards to ensure they don’t touch each other */
+.c1, .c2 {
+    margin-left: 15px; /* Space between cards in the same row */
+}
+
+/* Ensure the last card in each row does not extend beyond the boundary */
+.col-sm-6:last-child {
+    padding-right: 0;
+}
+.cards {
+margin-left: 200px !important;
+}
+.p21{
+    margin-left: 400px !important;
+}
+.s4{
+    position: relative;
+    width: 100%;
+}
+.plaincards{
+    position: absolute;
+    margin-top: 120px;
+ 
+   border-radius: 50px !important;
+}
+.plaincards{
+    width: 100% !important;
+}
+.container{
+    width: 100% !important;
+    margin-top: 20px !important;
+}
+.ch1{
+    margin-top: 1100px;
+    margin-left: 300px;
+}
+.form{
+    background-color:rgb(61, 61, 61);
+   
+    margin-left: 300px;
+    width: 80%;
+    height: 600px;
+}

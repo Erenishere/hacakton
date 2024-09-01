@@ -1,0 +1,33 @@
+/* Reset default margins and paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define CSS variables */
+:root {
+    --main-primary-color: #B9FF66;
+    --main-secondary-color: #191a23;
+    --white: #F3F3F3;
+}
+
+/* Style the container-fluid class */
+.container-fluid {
+    margin-top: 90px !important;
+}
+
+/* Align navbar items to the right */
+.navbar-nav {
+    margin-left:100px; /* Align items to the right */
+}
+
+.btn1 {
+    background-color: var(--white) !important;
+    border-color: var(--main-secondary-color)!important;
+}
+
+.btn1:hover {
+    background-color: darken(var(--main-primary-color), 10%);
+    border-color: darken(var(--main-primary-color), 10%);
+}
