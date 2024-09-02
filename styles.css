@@ -18,13 +18,14 @@
 }
 /* Style the container-fluid class */
 .container-fluid {
-  margin-top: 40px !important;
+  margin-top: 20px !important;
 }
 
 /* Align navbar items to the right */
 .navbar-nav {
-  margin-top: -20px !important;
-  margin-left: 1000px !important ; /* Align items to the right */
+  margin-top: 0px !important;
+
+  margin-left: 250px !important ; /* Align items to the right */
   gap: 20px !important;
   font-weight: 600 !important;
 }
@@ -48,6 +49,9 @@
   display: flex;
   justify-content: flex-start;
   height: 800px;
+  background-image: url(./assests/source1.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
 }
 .heading {
   margin-left: 10% !important;
@@ -263,6 +267,7 @@
   margin-top: 30px !important;
 }
 .foter-nav {
+  margin-left: 100px;
   gap: 20px !important;
 }
 .navnav1 {
@@ -311,6 +316,9 @@
 .footer .footer-logo img {
   max-width: 100px; /* Adjust logo size */
   margin-bottom: 20px; /* Margin below the logo */
+}
+.whitelogo {
+  width: 200px;
 }
 .footer .footer-links a {
   display: block; /* Make links block-level */
@@ -367,28 +375,27 @@
 }
 
 @media (max-width: 430px) {
-    .container-fluid {
-        margin-left: -25px !important;
-    }
-    .imagesection{
-        margin-left: 0px !important;
-        width: 300px !important;
-    }
-    .img1{
-        margin-top: 80px;
-        margin-left:10%;
-        width: 300px !important;
-    }
-    .paragraph{
-        margin-top: 350px !important;
-    }
-    .navbar-nav {
-       
-        margin-left:0px;
-      
-        font-weight: 600 !important;
-      }
-      .navbar-brand {
+  .container-fluid {
+    margin-left: -25px !important;
+  }
+  .imagesection {
+    margin-left: 0px !important;
+    width: 300px !important;
+  }
+  .img1 {
+    margin-top: 80px;
+    margin-left: 10%;
+    width: 300px !important;
+  }
+  .paragraph {
+    margin-top: 350px !important;
+  }
+  .navbar-nav {
+    margin-left: 0px;
+
+    font-weight: 600 !important;
+  }
+  .navbar-brand {
     margin-left: 0; /* Reset margin for smaller screens */
   }
 
@@ -408,141 +415,154 @@
     width: 100%; /* Full width button on smaller screens */
     margin-top: 10px; /* Add some spacing above the button */
   }
-  .s1{
+  .s1 {
     height: 633px;
+    background-position-y: 25%;
+    background-position-x: center;
+    background-size: 320px;
   }
-  .button2{
+  .button2 {
     width: 100%;
     margin-top: 560px;
     margin-left: -10px !important;
   }
-  .btn3{
+  .btn3 {
     margin-left: 40% !important;
   }
-  .p1{
+  .p1 {
     margin-top: 80px;
     margin-left: 10px;
   }
-  .p2{
+  .p2 {
     margin-top: 140px;
     margin-left: 10px !important;
   }
-  .cardscontainer{
+  .cardscontainer {
     display: block;
   }
-  .card1-1{
+  .card1-1 {
     margin-top: 120px;
     margin-left: -30px !important;
     width: 100%;
     height: 220px;
   }
-  .pic1{
+  .card1pic {
+    margin-left: 130px;
+    margin-top: -113px !important;
+  }
+  .pic1 {
     width: 100px;
     margin-right: 20px;
   }
-  .s5{
+  .s5 {
     margin-top: 300px !important;
   }
   .navbar-brand {
     margin-left: 50px;
     font-weight: 900;
   }
-  
+
   .container-fluid {
     margin-top: 40px;
   }
-  
+
   .navbar-nav {
     margin-top: -20px;
     margin-left: auto; /* Automatically aligns items to the right */
     gap: 20px;
     font-weight: 600;
   }
-  
+
   .navbar {
     margin-bottom: 40px;
   }
-  
 
-    .navbar-brand {
-      margin-left: 0; /* Reset margin for smaller screens */
-    }
-  
-    .navbar-nav {
-      margin-left: 0; /* Remove large margin to align items */
-      margin-top: 10px; /* Adjust margin for better spacing */
-      display: flex;
-      flex-direction: column; /* Stack items vertically */
-      align-items: center; /* Center items horizontally */
-    }
-  
-    .navbar-collapse {
-      justify-content: center; /* Center the collapsible content */
-    }
-  
-    .button {
-      width: 100%; /* Full width button on smaller screens */
-      margin-top: 10px; /* Add some spacing above the button */
-    }
-  
-    /* Adjustments for Form Layout */
-    .contact-form-container {
-      flex-direction: column; /* Stack form and image vertically */
-      max-width: 100%; /* Full width for smaller screens */
-      padding: 20px; /* Adjust padding */
-    }
-    
-    .form-left,
-    .form-right {
-      width: 100%; /* Full width for both form and image */
-      text-align: center; /* Center content */
-      padding: 0; /* Remove padding */
-      margin-bottom: 20px; /* Add margin for spacing between form sections */
-    }
-    
-    .form-right img {
-      max-width: 80%; /* Adjust image size for smaller screens */
-      margin: 0 auto; /* Center image */
-    }
-    .footer {
-        text-align: center; /* Center text for smaller screens */
-    }
-    .footer .foter-nav,
-    .footer .col-md-4 {
-        text-align: center; /* Center align text */
-        margin-bottom: 20px; /* Space below each section */
-    }
-    .foter-nav{
-        text-align: center !important;
-    }
-    .footer .subform {
-        width: 100%; /* Full width for form on smaller screens */
-        padding: 0; /* Remove padding */
-        margin-top: 20px; /* Margin above the form */
-    }
-    .footer form {
-        flex-direction: column; /* Stack form elements vertically */
-        align-items: center; /* Center align form elements */
-    }
-    .footer .subscribe-input,
-    .footer .subscribe-btn {
-        width: 90%; /* Full width for form elements */
-        margin: 10px 0; /* Margin around form elements */
-    }
-    .social-icons {
-        margin-bottom: 20px; /* Margin below social icons */
-    }
-    .navnav1{
-        margin-left: 206px !important;
-    }
-    .footer-nav a{
-        margin-left: 10px !important;
-    }
-    .socialimg{
-        margin-left: 102px !important;
-    }
-    .whitelogo{
-        margin-right: 40px !important;
-    }
-    
+  .navbar-brand {
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+
+  .navbar-nav {
+    margin-left: 0; /* Remove large margin to align items */
+    margin-top: 10px; /* Adjust margin for better spacing */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .navbar-collapse {
+    justify-content: center; /* Center the collapsible content */
+  }
+
+  .button {
+    width: 100%; /* Full width button on smaller screens */
+    margin-top: 10px; /* Add some spacing above the button */
+  }
+
+  /* Adjustments for Form Layout */
+  .contact-form-container {
+    flex-direction: column; /* Stack form and image vertically */
+    max-width: 100%; /* Full width for smaller screens */
+    padding: 20px; /* Adjust padding */
+  }
+
+  .form-left,
+  .form-right {
+    width: 100%; /* Full width for both form and image */
+    text-align: center; /* Center content */
+    padding: 0; /* Remove padding */
+    margin-bottom: 20px; /* Add margin for spacing between form sections */
+  }
+
+  .form-right img {
+    max-width: 80%; /* Adjust image size for smaller screens */
+    margin: 0 auto; /* Center image */
+  }
+  .footer {
+    text-align: center; /* Center text for smaller screens */
+  }
+  .footer .foter-nav,
+  .footer .col-md-4 {
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Space below each section */
+  }
+  .foter-nav {
+    text-align: center !important;
+  }
+  .footer .subform {
+    width: 100%; /* Full width for form on smaller screens */
+    padding: 0; /* Remove padding */
+    margin-top: 20px; /* Margin above the form */
+  }
+  .footer form {
+    flex-direction: column; /* Stack form elements vertically */
+    align-items: center; /* Center align form elements */
+  }
+  .footer .subscribe-input,
+  .footer .subscribe-btn {
+    width: 90%; /* Full width for form elements */
+    margin: 10px 0; /* Margin around form elements */
+  }
+  .subform {
+    margin-left: 0px !important;
+  }
+  .whitelogo {
+    width: 190px;
+    margin-left: 100px;
+  }
+  .social-icons {
+    margin-bottom: 20px; /* Margin below social icons */
+  }
+  .navnav1 {
+    margin-left: 0px !important;
+  }
+  .footer-nav a {
+    margin-left: 10px !important;
+  }
+  .socialimg {
+    margin-top: 10px;
+    margin-left: 18px !important;
+  }
+  .whitelogo {
+    margin-right: 40px !important;
+  }
 }
